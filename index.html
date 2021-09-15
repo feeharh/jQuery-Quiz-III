@@ -22,8 +22,7 @@
 <script>
     //<!—INSERT YOUR JQUERY CODE HERE - - >
     $(document).ready(function(){
-        $("p").find();
-        //$("p").last.show("it is just text");
+        $("p:nth-child(2)").text($("p:first").contents().text()); 
     });
 </script>
 
